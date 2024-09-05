@@ -1,7 +1,7 @@
 <?php
 
-class Pessoa{
-    $nome;
+class Pessoa {
+    public $nome;
     function __construct($nome){
         $this->nome = $nome;
     }
